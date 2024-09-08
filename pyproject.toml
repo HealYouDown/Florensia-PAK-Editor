@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "florensia-pak-editor"
+version = "1.0.0"
+description = ".pak file editor for Florensia"
+authors = ["Jeremy"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12,<3.13"
+pyside6 = "^6.7.2"
+pillow = "^10.4.0"
+humanize = "^4.10.0"
+pyinstaller = "^6.10.0"
+xlsxwriter = "^3.2.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.6.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
