@@ -1,6 +1,8 @@
 # Florensia PAK Editor
 Tool that allows viewing and editing the files inside a .pak file for the game Florensia.
 
+![](./docs/screenshot%20readme.png?raw=true)
+
 ## Features
 - Can be set as the default application for .pak files (will only work for .pak files for Florensia, no other games)
 - Export all (or a subset) of files inside a .pak file
