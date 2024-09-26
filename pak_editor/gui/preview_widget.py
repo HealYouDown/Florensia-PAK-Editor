@@ -107,7 +107,7 @@ class PreviewWidget(QtWidgets.QScrollArea):
                 if ext == ".bin":
                     data = parse_bin(BytesIO(file.content))
                 elif ext == ".dat":
-                    data = parse_dat(StringIO(file.content.decode("cp949")))
+                    data = parse_dat(StringIO(file.content.decode("utf-16")))
             except Exception as e:
                 self._preview_text(f"Failed to parse file: {str(e)}")
                 return
